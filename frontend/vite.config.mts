@@ -6,6 +6,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/ip-dashboard/",
   plugins: [vue(), eslint(), stylelint()],
   // This is to disable default fallback behaviour of
   // displaying the head tag of the html in case of
